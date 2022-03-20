@@ -93,7 +93,7 @@
         <div class="d-flex justify-content-between align-items-center">
           <h2>A H M S</h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php#home">Home</a></li>
             <li>Sign Up</li>
           </ol>
         </div>
@@ -255,7 +255,7 @@ $conn->close();
 
         <div class="d-flex flex-column align-items-center align-items-lg-start">
           <div class="copyright">
-            &copy; Copyright <strong><span>HeroBiz</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span>ViNiS</span></strong>. All Rights Reserved
           </div>
           <div class="credits">
             <!-- All the links in the footer should remain intact. -->

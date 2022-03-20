@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Log in to AHMS</title>
+  <title>Vacant Rooms</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -67,28 +67,12 @@
 <li><a href="index.php#portfolio"><span>Hostel Tour</span> </a></li>
 <li><a class="nav-link scrollto" href ="vacant.php">Vacant</a></li>
 <li><a class="nav-link scrollto" href="index.php#team">Wardens</a></li>
-<li class="dropdown megamenu"><a href="#"><span>Important Links</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+<li class="dropdown"><a href="#"><span>Important Links</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
   <ul>
-    <li>
-      <a href="#">Column 1 link 1</a>
-      <a href="#">Column 1 link 2</a>
-      <a href="#">Column 1 link 3</a>
-    </li>
-    <li>
-      <a href="#">Column 2 link 1</a>
-      <a href="#">Column 2 link 2</a>
-      <a href="#">Column 3 link 3</a>
-    </li>
-    <li>
-      <a href="#">Column 3 link 1</a>
-      <a href="#">Column 3 link 2</a>
-      <a href="#">Column 3 link 3</a>
-    </li>
-    <li>
-      <a href="#">Column 4 link 1</a>
-      <a href="#">Column 4 link 2</a>
-      <a href="#">Column 4 link 3</a>
-    </li>
+    <li><a href="index.index#faq" class="active"> FAQ</a></li>
+    <li><a href="#">Notices</a></li>
+    <li><a href="#">To be added</a></li>
+    <li><a href="#">To be added</a></li>
   </ul>
 </li>
 <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
@@ -96,8 +80,7 @@
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
 
-      <a class="btn-getstarted scrollto" href="SignUp.php#about">Sign Up</a>
-
+      <a class="btn-getstarted scrollto" href="LoginMain.php">Log In</a>
     </div>
   </header><!-- End Header -->
 
@@ -110,8 +93,8 @@
         <div class="d-flex justify-content-between align-items-center">
           <h2>A H M S</h2>
           <ol>
-            <li><a href="index.php#">Home</a></li>
-            <li>Log In</li>
+            <li><a href= "index.php#home"> Home </a></li>
+            <li>Vacant</li>
           </ol>
         </div>
 
@@ -122,46 +105,53 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Log in to AHMS</h2>
+          <h2>Check Hostels</h2>
         </div>
 
-        <div class="row gy-3">
+        <div class="row gy-4">
 
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-          </div><!-- End Pricing Item -->
+          </div>
 
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="400">
             <div class="pricing-item featured">
 
               <div class="pricing-header">
-                <h3>Enter Details</h3>
+                <h3>Vacant Seats</h3>
                 <h4><sup></sup><span></span></h4>
-                <h5>                      </h5>
-               <!-- <nav id="navbar" class="navbar">
-                <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                  <ul>
-                    <li><a href="#">Drop Down 1</a></li>
-                    <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                      <ul> -->
+
 <div class = "">
 <HTML>
-<script type = "text/javascript" src = "fetch.js"></script>
-<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<form name="form1" action="" method="post" enctype="multipart/form-data">
-<input type="text" placeholder="Enter a unique Username or email id" name="uname" required></p>
-<input type="password" placeholder="Enter password" name="password" required></p>
-</HTML>
-                          <!doctype HTML>
-                          </select>
+<?php
+$db_host = "localhost";
+$db_username = "root";
+$db_pass = "vinayak123";
+$db_name = "AHMS";
+$con = mysqli_connect($db_host,$db_username,$db_pass,$db_name);
+$result = mysqli_query($con, "SELECT Hostel_name from hostels");
+$result2 = mysqli_query($con,"SELECT * from hostels");
+?>
+<form name = "form2" action = "" method = "post" enctype="multipart/form-data">
+<select name = "Hostels" id = "HostelID">
+<option value = "">---Select---</option>
+            <?php 
+            while($rows = mysqli_fetch_array($result)){
+            ?>
+            <option value = "<?php echo $rows["Hostel_name"];  ?>"><?php echo $rows["Hostel_name"];  ?></option>
+            <?php
+            }
+            ?>
+        </select>
+
                       </div>
               </div>
               <ul>
               </ul>
               <div class="text-center mt-auto">
-                <button class ="buy-btn" type = "save" name = "submit" value= "add">Submit</a>
+              <form name = "formA" action = "" method = "post">
+              <button class ="buy-btn" href = "index.php#vacant" type = "save" name = "checkvacant" value= "add">Check Vacant Rooms</a>
               </div>
               </form>
-
             </div>
           </div>
 
@@ -170,46 +160,37 @@
 
         </div>
 
-     </div>  
-<?php  
-if (isset($_POST['submit'])) {  
-    extract($_POST);  
-    $servername = "localhost";  
-    $username   = "root";  
-    $password   = "Sk@2002@";  
-    $dbname     = "xyz";  
-    // Create connection  
-    $conn       = new mysqli($servername, $username, $password, $dbname);  
-    // Check connection  
-    if ($conn->connect_error) {  
-        die("Connection failed: " . $conn->connect_error);  
-    }
-    $user = $_POST['uname'];
-    $pass = $_POST['password'];
-    $sql = "SELECT uname, password from login5";
-    $result = $conn->query($sql); 
-    if ($result->num_rows > 0)
-    {
+      </div>
+<?php
+  if (isset($_POST['checkvacant'])) {  
+   extract($_POST);  
+   $servername = "localhost";  
+   $username   = "root";  
+   $password   = "vinayak123";  
+   $dbname     = "AHMS";  
+   // Create connection  
+   $conn       = new mysqli($servername, $username, $password, $dbname);  
+   // Check connection  
+   if ($conn->connect_error) {  
+       die("Connection failed: " . $conn->connect_error);  
+   }
+   $choice= $_POST['Hostels'];
+   $sql = "SELECT * FROM hostels where hostel_name = '$choice'";
+   $result = $conn->query($sql);
+   if ($result->num_rows > 0)
+  {
       // output data of each row
-    while($row = $result->fetch_assoc()) {
-        if($row["uname"] === $user)
-        {
-            if($row["password"] === $pass)
-            {
-                echo "LOGIN SUCCESSFULL";
-            }
-        }
-    }
-    } 
+      while($row = $result->fetch_assoc()) 
+      echo "<center><div class='col-lg-2' data-aos='zoom-in' data-aos-delay='400'><div class='row gy--3'><div class='text-center mt-auto'><div class='pricing-item featured'><div class='text-center mt-auto'><center><input type='text' value='$row[Vacant_rooms]'/></form>";			
+  }
     else
     {
-      echo "0 results";
+      echo "<center><div class='col-lg-2' data-aos='zoom-in' data-aos-delay='400'><div class='row gy--2'><div class='text-center mt-auto'><div class='pricing-item featured'><div class='text-center mt-auto'><center><input type='text' value='Select Hostel from list'/></form>";			
     }
 $conn->close();
-}
-?>
+  }
+?> 
     </section>
-    <!--=======End Vacant Seat Section=======-->
 
     
 
@@ -224,7 +205,7 @@ $conn->close();
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>HeroBiz</h3>
+              <h3>ViNiS</h3>
               <p>
                 A108 Adam Street <br>
                 NY 535022, USA<br><br>
@@ -274,7 +255,7 @@ $conn->close();
 
         <div class="d-flex flex-column align-items-center align-items-lg-start">
           <div class="copyright">
-            &copy; Copyright <strong><span>HeroBiz</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span>ViNS</span></strong>. All Rights Reserved
           </div>
           <div class="credits">
             <!-- All the links in the footer should remain intact. -->
