@@ -7,6 +7,8 @@ It's sole aim is to help students as well as administration.
 
 In 4 words it is "Automated Hostel Management System".
 
+![Logo](https://github.com/VG-1/Hostoura/blob/master/assets/img/logo.jpeg)
+
 
 
 # Features
@@ -113,5 +115,5 @@ Any additional information goes here
 
 
 
-![Logo](https://github.com/VG-1/Hostoura/blob/master/assets/img/logo.jpeg)
+
 
