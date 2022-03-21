@@ -2,7 +2,7 @@
 # Hostoura- Our Answer to Hostels
 
 Hostoura is a website that will automate the whole process of Hostel Management for students ( specifically for my University i.e.. DAVV)
-It is a alternative to traditional hostel management system.
+It is a alternative to traditional hostel management system. This website is made by me and my two colleagues
 It's sole aim is to help students as well as administration.
 
 In 4 words it is "Automated Hostel Management System".
