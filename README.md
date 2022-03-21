@@ -1,25 +1,41 @@
 
 # Hostoura- Our Answer to Hostels
-
-Hostoura is a website that will automate the whole process of Hostel Management for students ( specifically for my University i.e.. DAVV)
-It is a alternative to traditional hostel management system. This website is made by me and my two colleagues
+ 
+Hostoura is a website that will automate the whole process of Hostel Management for students ( specifically for my University i.e.. DAVV).Website main functionality is to automate the whole hostel system online, that includes from searching of Hostel to the final allocation of rooms.
+It is a alternative to traditional hostel management system.
+This website is made by me and my two colleagues.It is designed using HTML, CSS, Bootstrap, Javascript,php, MySQL.
 It's sole aim is to help students as well as administration.
 
 In 4 words it is "Automated Hostel Management System".
 
 ![Logo](https://github.com/VG-1/Hostoura/blob/master/assets/img/logo.jpeg)
 
+# “Why” Hostoura
+
+But why do we even need this when we already have the traditional procedure of hostel management? 
+Well, the answer is simple and that leads us to the demerits of it.
+DEMERITS OF TRADITIONAL HOSTEL MANAGEMENT PROCESS : 
+
+ i) Lack of Transparency
+ ii) Hectic Paperwork
+ iii) Miscommunication of Information
 
 
 # Features
+1. The website will have all the details of hostels available in Davv.
 
--Signup/Login Button
+2. Separate sections for boys and girls hostel.
 
--Vacant Seat Section
+3. Hostel rules and regulations will be mentioned there.
 
--Hostel Tour Section
+4. All notices regarding the hostel will be popped up there. 
 
--Reviews/Rating Section
+5. Fees structure will be provided so that everyone can see it easily.
+
+6. Whole application procedure will be done online from form filling to payment of hostel fees.
+
+7. Reviews of hostels that’ll prove helpful for upcoming hostellers.
+
 
 
 
