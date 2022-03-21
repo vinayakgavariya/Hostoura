@@ -60,13 +60,13 @@
       <nav id="navbar" class="navbar">
       <ul>
 
-<li><a class="nav-link scrollto active" href="index.php#home">Home</a></li>
-<li><a class="nav-link scrollto" href="index.php#about">About</a></li>
-<li><a class="nav-link scrollto" href ="index.php#Apply">Apply for Hostel</a></li>
-<li><a class="nav-link scrollto" href="index.php#services">Services</a></li>
-<li><a href="index.php#portfolio"><span>Hostel Tour</span> </a></li>
-<li><a class="nav-link scrollto" href ="vacant.php">Vacant</a></li>
-<li><a class="nav-link scrollto" href="index.php#team">Wardens</a></li>
+<li><a class="nav-link scrollto active" href="indehtml#home">Home</a></li>
+<li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+<li><a class="nav-link scrollto" href ="index.html#Apply">Apply for Hostel</a></li>
+<li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
+<li><a href="index.html#portfolio"><span>Hostel Tour</span> </a></li>
+<li><a class="nav-link scrollto" href ="vacant.html">Vacant</a></li>
+<li><a class="nav-link scrollto" href="index.html#team">Wardens</a></li>
 <li class="dropdown"><a href="#"><span>Important Links</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
 <ul>
               <li><a href="index.index#faq" class="active"> FAQ</a></li>
@@ -74,11 +74,7 @@
               <li><a href="https://www.dauniv.ac.in/public/frontassets/hostels/fees%2019-20.pdf">Fee Structure</a></li>
               <li><a href="https://www.dauniv.ac.in/public/frontassets/hostels/Hostel-Details21.pdf">Wardens' Contact Info</a></li>
             </ul>
-    <li><a href="index.index#faq" class="active"> FAQ</a></li>
-    <li><a href="#">Notices</a></li>
-    <li><a href="#">To be added</a></li>
-    <li><a href="#">To be added</a></li>
-  </ul>
+   
 </li>
 <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
 </ul>
@@ -188,7 +184,7 @@ $result2 = mysqli_query($con,"SELECT * from hostels");
   {
       // output data of each row
       while($row = $result->fetch_assoc()) 
-      echo "<center><div class='col-lg-2' data-aos='zoom-in' data-aos-delay='400'><div class='row gy--3'><div class='text-center mt-auto'><div class='pricing-item featured'><div class='text-center mt-auto'><center><input type='text' value='$row[Vacant_Rooms]'/></form>";			
+      echo "<center><div class='col-lg-2' data-aos='zoom-in' data-aos-delay='400'><div class='row gy--3'><div class='text-center mt-auto'><div class='pricing-item featured'><div class='text-center mt-auto'><center><input type='text' value='$row[Vacant_rooms]'/></form>";			
   }
     else
     {
@@ -208,7 +204,6 @@ $conn->close();
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
 
-<<<<<<< Updated upstream:Vacant.html
     <div class="footer-content">
       <div class="container">
         <div class="row">
@@ -235,7 +230,6 @@ $conn->close();
               <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
           </div>
-=======
 <div class="footer-content">
   <div class="container">
     <div class="row">
@@ -251,7 +245,6 @@ $conn->close();
           </p>
         </div>
       </div>
->>>>>>> Stashed changes:Vacant.php
 
       <div class="col-lg-2 col-md-6 footer-links">
         <h4>Useful Links</h4>
@@ -284,7 +277,6 @@ $conn->close();
 
       </div>
 
-<<<<<<< Updated upstream:Vacant.html
     <div class="footer-legal text-center">
       <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
 
@@ -300,11 +292,9 @@ $conn->close();
             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
         </div>
-=======
     </div>
   </div>
 </div>
->>>>>>> Stashed changes:Vacant.php
 
 <div class="footer-legal text-center">
   <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">

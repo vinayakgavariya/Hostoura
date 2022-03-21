@@ -60,40 +60,16 @@
       <nav id="navbar" class="navbar">
       <ul>
 
-<li><a class="nav-link scrollto active" href="index.php#home">Home</a></li>
-<li><a class="nav-link scrollto" href="index.php#about">About</a></li>
-<li><a class="nav-link scrollto" href ="index.php#Apply">Apply for Hostel</a></li>
-<li><a class="nav-link scrollto" href="index.php#services">Services</a></li>
-<li><a href="index.php#portfolio"><span>Hostel Tour</span> </a></li>
-<li><a class="nav-link scrollto" href ="vacant.php">Vacant</a></li>
-<li><a class="nav-link scrollto" href="index.php#team">Wardens</a></li>
-<<<<<<< Updated upstream:LoginMain.html
-<li class="dropdown megamenu"><a href="#"><span>Important Links</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-  <ul>
-    <li>
-      <a href="#">Column 1 link 1</a>
-      <a href="#">Column 1 link 2</a>
-      <a href="#">Column 1 link 3</a>
-    </li>
-    <li>
-      <a href="#">Column 2 link 1</a>
-      <a href="#">Column 2 link 2</a>
-      <a href="#">Column 3 link 3</a>
-    </li>
-    <li>
-      <a href="#">Column 3 link 1</a>
-      <a href="#">Column 3 link 2</a>
-      <a href="#">Column 3 link 3</a>
-    </li>
-    <li>
-      <a href="#">Column 4 link 1</a>
-      <a href="#">Column 4 link 2</a>
-      <a href="#">Column 4 link 3</a>
-    </li>
-  </ul>
-</li>
+<li><a class="nav-link scrollto active" href="index.html#home">Home</a></li>
+<li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+<li><a class="nav-link scrollto" href ="index.html#Apply">Apply for Hostel</a></li>
+<li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
+<li><a href="index.html#portfolio"><span>Hostel Tour</span> </a></li>
+<li><a class="nav-link scrollto" href ="vacant.html">Vacant</a></li>
+<li><a class="nav-link scrollto" href="index.html#team">Wardens</a></li>
+<!-- <<<<<<< Updated upstream:LoginMain.html -->
+
 <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
-=======
 <li class="dropdown"><a href="#"><span>Important Links</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
 <ul>
               <li><a href="index.index#faq" class="active"> FAQ</a></li>
@@ -102,10 +78,9 @@
               <li><a href="https://www.dauniv.ac.in/public/frontassets/hostels/Hostel-Details21.pdf">Wardens' Contact Info</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="index.php#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
->>>>>>> Stashed changes:LoginMain.php
 </ul>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
@@ -124,7 +99,7 @@
         <div class="d-flex justify-content-between align-items-center">
           <h2>A H M S</h2>
           <ol>
-            <li><a href="index.php#">Home</a></li>
+            <li><a href="index.html#">Home</a></li>
             <li>Log In</li>
           </ol>
         </div>
@@ -236,7 +211,6 @@ $conn->close();
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
 
-<<<<<<< Updated upstream:LoginMain.html
     <div class="footer-content">
       <div class="container">
         <div class="row">
@@ -263,7 +237,6 @@ $conn->close();
               <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
           </div>
-=======
 <div class="footer-content">
   <div class="container">
     <div class="row">
@@ -279,7 +252,6 @@ $conn->close();
           </p>
         </div>
       </div>
->>>>>>> Stashed changes:LoginMain.php
 
       <div class="col-lg-2 col-md-6 footer-links">
         <h4>Useful Links</h4>
@@ -312,7 +284,6 @@ $conn->close();
 
       </div>
 
-<<<<<<< Updated upstream:LoginMain.html
     <div class="footer-legal text-center">
       <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
 
@@ -328,11 +299,9 @@ $conn->close();
             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
         </div>
-=======
     </div>
   </div>
 </div>
->>>>>>> Stashed changes:LoginMain.php
 
 <div class="footer-legal text-center">
   <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">

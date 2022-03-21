@@ -60,13 +60,13 @@
       <nav id="navbar" class="navbar">
       <ul>
 
-<li><a class="nav-link scrollto active" href="index.php#home">Home</a></li>
-<li><a class="nav-link scrollto" href="index.php#about">About</a></li>
-<li><a class="nav-link scrollto" href ="index.php#Apply">Apply for Hostel</a></li>
-<li><a class="nav-link scrollto" href="index.php#services">Services</a></li>
-<li><a href="index.php#portfolio"><span>Hostel Tour</span> </a></li>
-<li><a class="nav-link scrollto" href ="vacant.php">Vacant</a></li>
-<li><a class="nav-link scrollto" href="index.php#team">Wardens</a></li>
+<li><a class="nav-link scrollto active" href="index.html#home">Home</a></li>
+<li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+<li><a class="nav-link scrollto" href ="index.html#Apply">Apply for Hostel</a></li>
+<li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
+<li><a href="index.html#portfolio"><span>Hostel Tour</span> </a></li>
+<li><a class="nav-link scrollto" href ="vacant.html">Vacant</a></li>
+<li><a class="nav-link scrollto" href="index.html#team">Wardens</a></li>
 <li class="dropdown"><a href="#"><span>Important Links</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
 <ul>
               <li><a href="index.index#faq" class="active"> FAQ</a></li>
