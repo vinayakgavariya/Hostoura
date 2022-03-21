@@ -107,9 +107,7 @@ Curretly I'm in Second Year majoring in AI and Data Science.
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)]()
 
 
-## Appendix
 
-Any additional information goes here
 
 
 
