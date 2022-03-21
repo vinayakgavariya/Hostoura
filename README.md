@@ -69,7 +69,7 @@ http://localhost/Project_Name/index.html
 Here is the link to Hostoura:-
 
 https://automated-hostel-management-system-ahms.vercel.app/
-```
+
 
 
 
@@ -110,19 +110,8 @@ Curretly I'm in Second Year majoring in AI and Data Science.
 Any additional information goes here
 
 
-## Deployment
 
 
 
-
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
-
-![Logo](https://pasteboard.co/tKpInVu88Tvd.jpg)
+![Logo](https://github.com/VG-1/Hostoura/blob/master/assets/img/logo.jpeg)
 
